@@ -1,0 +1,310 @@
+@charset "utf-8";
+/*共通レイアウト*/
+/*ヘッダ部分レイアウト*/
+#head {
+	background-color: #4C311A;
+	overflow-x: hidden;
+	overflow-y: hidden;
+	margin-bottom: 1em;
+}
+#shop-name {
+	float: left;
+	width: 65%;
+	margin-top: 0.5em;
+}
+#shop-logo img {
+	max-width: 90%;
+}
+
+#shop-info {
+	float: right;
+	overflow-x: hidden;
+	overflow-y: hidden;
+	margin-top: 0.5em;
+	width: 35%;
+	margin-bottom: 0.5em;
+}
+#shop-info  img {
+	max-width: 80%;
+	max-height: 80%;
+
+}
+#nav-view {
+	float: right;
+	margin-left: 0.5em;
+}
+
+#online {
+	float: right;
+}
+#head a {
+	color: #FFFFFF;
+	font-size: 0.8em;
+}
+/*グローバルナビ部分レイアウト（通常は非表示*/
+#global-navi {
+	width: 50%;
+	position: absolute;
+	top: 48px;
+	background-color: #4C311A;
+	left: 50%;
+}
+#global-navi li {
+	border-bottom: 1px dotted #FFFFFF;
+	padding-left: 1em;
+}
+#global-navi .last {
+	border-bottom-style: none;
+
+}
+
+/*フッタ部分レイアウト*/
+#foot {
+	background-color: #4C311A;
+}
+#foot a {
+	color: #FFFFFF;
+	font-size: 0.8em;
+}
+#ft-sns {
+	overflow-x: hidden;
+	overflow-y: hidden;
+	margin-left: auto;
+	margin-right: auto;
+	width: 67px;
+}
+#ft-sns li {
+	float: left;
+	padding-right: 5px;
+	margin-top: 1em;
+}
+#ft-nav {
+	margin-left: auto;
+	width: 86.66%;
+	margin-right: auto;
+	margin-bottom: 1em;
+}
+#copyright {
+	color: #FFFFFF;
+	text-align: center;
+	font-size: 0.8em;
+	border-top: 1px solid #FFFFFF;
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+/*コンテンツ部分レイアウト*/
+#contents {
+	width: 86.66%;
+	margin-left: auto;
+	margin-right: auto;
+}
+#contents a {
+	color: #000000;
+}
+#greeting ,#feature,#pickup{
+	margin-bottom: 2em;
+}
+/*タイトル部分レイアウト*/
+#greeting h2 {
+	background-image: url(img/bn_herbes_s.png);
+	background-repeat: no-repeat;
+	background-size: 60% auto;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	text-align: right;
+	color: #1A7B02;
+	margin-bottom: 0.5em;
+}
+#feature h2 {
+	background-image: url(img/bn_feature_s.png);
+	background-repeat: no-repeat;
+	background-size: 60% auto;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	text-align: right;
+	color: #1A7B02;
+	margin-bottom: 0.5em;
+}
+#pickup h2 {
+	background-image: url(img/bn_pickup_s.png);
+	background-repeat: no-repeat;
+	background-size: 60% auto;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	text-align: right;
+	color: #1A7B02;
+	margin-bottom: 0.5em;
+}
+/*記事部分レイアウト*/
+.img-area {
+	text-align: center;
+}
+.p-title {
+	background-color: #006600;
+	color: #FFFFFF;
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
+.p-title h3 {
+	width: 80%;
+	float: left;
+	padding-top: 0.8em;
+	padding-bottom: 0.8em;
+	padding-left: 1em;
+}
+.p-title p {
+	width: 10%;
+	float: right;
+	padding-top: 0.5em;
+}
+.description {
+	margin-bottom: 1.5em;
+	padding: 1em;
+	background-color: #ececec;
+}
+
+
+.top-read {
+	text-align: right;
+	background-image: url(img/bt_top.png);
+	background-position: right center;
+	padding-right: 1.5em;
+	background-repeat: no-repeat;
+	clear: both;
+}
+/*表示に関わるレイアウト（解答）*/
+.none-sp {
+	display: none;
+}
+.alt-text {
+	width: 1%;
+	height: 1%;
+	position: absolute;
+	clip: rect(1px 1px 1px 1px);
+}
+img {
+	max-width: 100%;
+	height: auto;
+	vertical-align: bottom;
+}
+/*タブレット用レイアウト*/
+@media screen and (min-width:600px){
+.none-sp {
+	display: block;
+}
+.none-pc {
+	display: none;
+}
+#shop-name {
+	width: 40%;
+}
+#shop-info {
+	width: 60%;
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
+#hd-navi li {
+	width: 25%;
+	float: left;
+	text-align: center;
+}
+#hd-sns {
+	width: 50%;
+	float: left;
+}
+#hd-sns li {
+	float: left;
+	padding-right: 0.5em;
+}
+#hd-sns img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+#online {
+	width: 50%;
+	float: left;
+	text-align: center;
+}
+#global-navi {
+	position: static;
+	clear: both;
+	width: 100%;
+}
+#global-navi ul {
+	margin-left: auto;
+	margin-right: auto;
+	width: 96%;
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
+
+#global-navi li {
+	width: 16%;
+	float: left;
+	border-bottom-style: none;
+	border-right: 1px dotted #FFFFFF;
+	text-align: center;
+	padding-left: 0;
+}
+.btnInner {
+	display: table-cell;
+	width: 15%;
+	height: 3em;
+	vertical-align: middle;
+}
+
+#global-navi .last {
+	border-right-style: none;
+}
+#greeting h2 {
+	height: 50px;
+	padding-top: 1.2em;
+	text-align: left;
+	padding-left: 50%;
+	background-size: auto auto;
+
+}
+#feature h2 {
+	height: 50px;
+	padding-top: 1.2em;
+	text-align: left;
+	padding-left: 50%;
+	background-size: auto auto;
+
+}
+#pickup h2 {
+	height: 50px;
+	padding-top: 1.2em;
+	text-align: left;
+	padding-left: 50%;
+	background-size: auto auto;
+
+}
+.piece-s1 {
+	width: 48%;
+	float: left;
+}
+.piece-s3 {
+	width: 48%;
+	float: left;
+	clear: left;
+}
+.piece-s2 {
+	width: 48%;
+	float: right;
+}
+
+
+#ft-nav {
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
+
+#ft-nav li {
+	width: 20%;
+	float: left;
+	text-align: center;
+}
+}
+/*PC用レイアウト*/
