@@ -5,11 +5,10 @@
 <img width="1783" alt="スクリーンショット 2020-08-20 1 52 24" src="https://user-images.githubusercontent.com/69723183/90666328-2c024f80-e288-11ea-9558-d3591af993b2.png">
 <img width="1161" alt="スクリーンショット 2020-08-20 1 53 08" src="https://user-images.githubusercontent.com/69723183/90666376-3e7c8900-e288-11ea-8038-503159cf5d23.png">
 <img width="1186" alt="スクリーンショット 2020-08-20 1 53 18" src="https://user-images.githubusercontent.com/69723183/90667110-50126080-e289-11ea-9b1f-241f29c9ed28.png">
-
+<p>この作品は、HTMLとCSSが身に付いているかの腕試しの為に作りました、</p>
 <h2>今後について</h2>
  <ul>
-   <li>①今まのままでは、自分で曲をストックしないとダメなので、自動で追加できるようにする。</li>
-   <li>②リピート機能を追加する</li>
+   <li>①今後は、オリジナルサイトを増やしていきます。</li>
  </ul>
   
  <p>最後まで見ていただきありがとうございました。</p>
