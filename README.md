@@ -7,8 +7,10 @@
 <img width="1186" alt="スクリーンショット 2020-08-20 1 53 18" src="https://user-images.githubusercontent.com/69723183/90667110-50126080-e289-11ea-9b1f-241f29c9ed28.png">
 <h2>レスポンシブ</h2>
 <img width="507" alt="スクリーンショット 2020-08-20 2 06 49" src="https://user-images.githubusercontent.com/69723183/90667530-ddee4b80-e289-11ea-9421-8506604bcbcb.png">
+<img width="481" alt="スクリーンショット 2020-08-20 2 06 59" src="https://user-images.githubusercontent.com/69723183/90667804-06764580-e28a-11ea-8a2f-7eb4139d7e9c.png">
 
-<p>この作品は、HTMLとCSSが身に付いているかの腕試しの為に作りました、</p>
+<p>この作品は、HTMLとCSSが身に付いているかの腕試しの為に作りました、<br>
+レスポンシブにも対応しています。</p>
 <h2>今後について</h2>
  <ul>
    <li>①今後は、オリジナルサイトを増やしていきます。</li>
